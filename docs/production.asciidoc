@@ -102,6 +102,7 @@ information, see {shield}/kibana.html#using-kibana4-with-shield[Using Kibana 4 w
 [float]
 [[load-balancing]]
 === Load Balancing Across Multiple Elasticsearch Nodes
+below are not valid in kibana4.
 If you have multiple nodes in your Elasticsearch cluster, the easiest way to distribute Kibana requests
 across the nodes is to run an Elasticsearch _client_ node on the same machine as Kibana.
 Elasticsearch client nodes are essentially smart load balancers that are part of the cluster. They
